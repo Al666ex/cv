@@ -5,24 +5,25 @@ const FilterSort = ({search,setSearch,modal, setModal,sort,setSort}) => {
         setSort(!sort)
     }
     return (
-        <div>
+        <div className='filter-sort'>
             <button className='button' onClick={() => setModal(true)}>Add user</button>
-            <input
-                value={search}
-                onChange={(e) => setSearch(e.target.value)} 
-                className='input-search' 
-                type='text' 
-                placeholder='...search by name' 
-                autoFocus 
-            />          
-            <span className='checkbox-sort'>
+            <div style={{display : 'inline-block'}} className='checkbox-sort'>
                 <input 
                     id="checkbox" 
                     onChange={onSort}                
                     type='checkbox' 
                 /> 
                 <label htmlFor="checkbox">Sorting</label>
-            </span>
+            </div>
+            <input
+                value={search}
+                onChange={(e) => setSearch(e.target.value.toLowerCase())} 
+                className='input-search' 
+                type='text' 
+                placeholder='...search by name' 
+                autoFocus 
+            />          
+
         </div>     
     )
 }
