@@ -1,0 +1,23 @@
+@import '../Variables/Variables.scss';
+
+.item{
+  border: 1px solid teal;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: larger;
+  color: $whiteColor;
+  cursor: pointer;
+    span {    
+    cursor: pointer;  
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;}
+    span:before, span:after {content: ""; position: absolute; width: 24px; height: 4px; background: gray;}
+    span:before {transform: rotate(45deg);}
+    span:after {transform: rotate(-45deg);}
+    
+}

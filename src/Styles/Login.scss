@@ -1,0 +1,21 @@
+@import '../Variables/Variables.scss';
+
+.login{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: end;  
+        input{
+            padding: 10px 10px;
+            border: 1px solid $tealColor;
+            border-radius: 5px;
+            font-size: large;
+            margin: 5px;
+        }
+    }    
+}
+  

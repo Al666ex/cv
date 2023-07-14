@@ -1,0 +1,13 @@
+@import '../Variables/Variables.scss';
+
+.userCard{
+  border: 1px solid teal;
+  font-size: 1.4rem;   
+  padding: 10px;
+  flex-direction: column;
+  /* margin-top: 70px; */
+  width: auto;
+  color: $whiteColor;
+  margin-inline: 5px;
+  }
+  

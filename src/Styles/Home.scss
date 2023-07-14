@@ -1,0 +1,24 @@
+.bg-video {
+    position:absolute;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    video {
+        position: absolute;
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        z-index: 3;
+      }
+    .effect {
+        position: absolute;
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        z-index: 4;
+        background-color: rgba(0, 0, 0, 0.486);
+    }
+  }

@@ -1,0 +1,28 @@
+
+.tech{
+    bottom: 120px;
+    color: black;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width : 600px){
+    .tech{
+        //display: none; 
+        height: 50px;
+        bottom: 0;
+        position: fixed;
+        background-color: teal;
+    }
+}
+
+@media (max-width : 330px){
+    .tech{
+        height: 70px;
+    }
+}

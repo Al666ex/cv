@@ -1,0 +1,25 @@
+@import '../Variables/Variables.scss';
+
+.input-search{
+    margin: 10px ;
+    font-size: large;
+    border: 1px solid $tealColor;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width:auto;    
+    font-size: 1.3rem;
+}
+
+.input-search:hover{
+    background-color:cadetblue;
+    transition:cubic-bezier(0.19, 1, 0.22, 1);
+    color: $whiteColor;
+}
+
+@media (max-width : 600px){
+    .input-search{
+        font-size:medium;           
+        padding: 5px 10px;        
+        font-size: 1.1rem;
+    }
+}

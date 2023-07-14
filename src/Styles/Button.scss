@@ -1,0 +1,26 @@
+@import '../Variables/Variables.scss';
+
+.button{
+    margin: 10px ;
+    font-size: large;
+    border: 1px solid $tealColor;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.button:hover{
+    background-color:cadetblue;
+    transition:cubic-bezier(0.19, 1, 0.22, 1);
+    color: $whiteColor;
+}
+
+@media (max-width : 600px){
+    .button{
+        font-size:medium;           
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+}
