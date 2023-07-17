@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Tech = () => 
 <div className="tech">
-    <h3>HTML React Redux SASS. Fatch   
+    <h3>HTML React Redux SASS. Fetch   
         <Link className='flash' to={'/users'}> Users </Link> 
         from 
         <Link to={"https://jsonplaceholder.typicode.com/"} target="_blank">jsonplaceholder</Link>
